@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h2>Student Registration Form</h2>
+    </div>
+    <h4>Personal Information</h4>
+    <div>
+        <form>
+            <label>Last Name:</label><br>
+                <input type="text" name="txt_lname" placeholder="Enter Last Name" size="30" required><br><br>
+                <label>First Name:</label><br>
+                    <input type="text" name="txt_fname" placeholder="Enter First Name" size="30" required><br><br>
+                    <label>Middle Name:</label><br>
+                    <input type="text" name="txt_fname" placeholder="Enter Middle Name" size="30" required><br><br>
+                    <label>Address:</label><br>
+                <textarea name="txt_address" cols="30"></textarea><br><br>
+ 
+                <label>Birthday:</label><br>
+                    <input type="date" name="txt_bday"><br><br>
+ 
+                    <label>Gender:</label><br>
+                    <input type="radio" name="gender" value="Male">Male <br>
+                    <input type="radio" name="gender" value="Female">Female<br><br>
+ 
+                    <label>Contact Number:</label><br>
+                    <input type="number" name="txt_fname" placeholder="Enter Contact Number" minlength="11" maxlength="11" required><br>
+                   
+                <div>
+                    <h2>Educational Attainment</h2>
+                </div>
+                <label>Elementary:</label><br>
+                <input type="text" name="txt_lname" placeholder="" size="30" required><br><br>
+                <label>Junior Highschool:</label><br>
+                <input type="text" name="txt_lname" placeholder="" size="30" required><br><br>
+                <label>Senior Highschool:</label><br>
+                <input type="text" name="txt_lname" placeholder="" size="30" required><br><br>
+                <label>Strand/Track:</label>
+                <select>
+                    <option value="ABM">ABM</option><br>
+                    <option value="STEM">STEM</option><br>
+                    <option value="GAS">GASS</option><br>
+                    <option value="HUMSS">HUMSS</option><br>
+                </select><br><br>
+ 
+                <label>College:</label><br>
+                <input type="text" name="txt_lname" placeholder="" size="30" required><br><br>
+                <label>Program:</label><br>
+                <input type="text" name="txt_lname" placeholder="" size="30" required><br><br>
+ 
+                <label>Documents Submitted:</label><br>
+                    <input type="checkbox" name="tor" value="TOR">Transcript of Records<br>
+                    <input type="checkbox" name="bc" value="Birth_Certificate">Birth Certificate<br>
+                    <input type="checkbox" name="dt" value="Medical">Medical Result<br>
+                    <input type="checkbox" name="dt" value="Form137">Form 137<br><br>
+                <label>Upload Scanned Copy:</label> 
+                <input type="file" name="upload_file"><br>
+ 
+                <br>
+                <input type="submit" name="btn_save" value="Save">
+                <input type="reset" name="btn_save" value="Reset">
+        </form>
+    </div>
+    
+
+</body>
+</html>
+
